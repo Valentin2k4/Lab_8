@@ -1,10 +1,10 @@
-﻿/*  // N1.6
+  // N 1.6
 
-  char[] vowel = new[] { 'а', 'о', 'у', 'э', 'ы', 'я', 'ё', 'ю', 'е', 'и' };
+char[] vowel = new[] { 'а', 'о', 'у', 'э', 'ы', 'я', 'ё', 'ю', 'е', 'и' };
 string words = "компьютер мама человек студент слабый";
 string[] word = words.Split(new char[] { ' ' }); 
   
-  Console.WriteLine("Количество слогов в словах:");
+Console.WriteLine("Количество слогов в словах:");
 foreach (string w in word)
 {
     int countOfSyllables = 0;
@@ -16,12 +16,10 @@ foreach (string w in word)
     
     Console.WriteLine($"В слове {w}: {countOfSyllables};");
 }
-Console.WriteLine("");
 Console.ReadKey();
-*/
 
 
-/*  //N 1.11
+  // N 1.11
 
 string surnames = "Иванов,Петров,Сидоров,Козлов,Абрамов";
 string[] ListOfSurname = surnames.Split(new char[] {','}).ToArray();
@@ -30,10 +28,9 @@ foreach (string surname in ListOfSurname) {
     Console.Write($"{surname} ");
 }
 Console.ReadKey();
-*/
 
 
-  //N 1.11
+  // N 1.11
 using System;
 class Program
 {
